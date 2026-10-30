@@ -8,5 +8,5 @@ document.getElementById('acc').onclick=()=>setCookie('all');
 document.getElementById('dec').onclick=()=>setCookie('essential');
 const f=document.getElementById('form');
 if(f)f.onsubmit=e=>{e.preventDefault();const s=f.querySelector('button');
-location.href='mailto:admin@lcm-design.click?subject='+encodeURIComponent('Запрос с сайта LCM DESIGN')+'&body='+encodeURIComponent('Имя: '+f.name.value+'\nEmail: '+f.email.value+'\n\n'+f.msg.value);
-s.textContent='Открываю почтовый клиент…'};
+location.href='mailto:admin@lcm-design.click?subject='+encodeURIComponent('Inquiry from LCM DESIGN website')+'&body='+encodeURIComponent('Name: '+f.name.value+'\nEmail: '+f.email.value+'\n\n'+f.msg.value);
+s.textContent='Opening your email app…'};

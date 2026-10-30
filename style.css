@@ -90,3 +90,20 @@ nav a{display:block;margin:0;padding:12px 0;border-bottom:1px solid var(--line)}
 .btn.ghost{margin:12px 0 0}
 }
 @media(max-width:520px){.projects{grid-template-columns:1fr}}
+.phero{padding:170px 0 80px;background:linear-gradient(#0c1118cc,#0c1118f5),url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=60') center/cover}
+.phero h1{font-size:clamp(36px,6vw,68px);text-transform:uppercase;line-height:1.05}
+.phero p{color:#c3cbd6;max-width:640px;margin-top:16px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.two img{width:100%;height:420px;object-fit:cover}
+.two p,.lead{color:var(--muted);margin-bottom:16px}
+.list{list-style:none;margin-top:14px}
+.list li{padding:10px 0;border-bottom:1px solid var(--line);color:#c3cbd6}
+.list li:before{content:"— ";color:var(--accent)}
+.faq details{border-bottom:1px solid var(--line);padding:18px 0}
+.faq summary{cursor:pointer;font-weight:500;text-transform:uppercase;letter-spacing:.04em}
+.faq p{color:var(--muted);margin-top:10px}
+.lang{font-size:12px;border:1px solid var(--line);padding:4px 10px;margin-left:24px}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:40px}
+.pgrid .proj{height:380px}
+@media(max-width:900px){.two{grid-template-columns:1fr;gap:30px}.pgrid{grid-template-columns:1fr 1fr}.lang{margin:0}}
+@media(max-width:520px){.pgrid{grid-template-columns:1fr}}
